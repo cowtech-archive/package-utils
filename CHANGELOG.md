@@ -1,3 +1,7 @@
+### 0.0.3 / 2017-07-19
+
+* Fixed publish command.
+
 ### 0.0.2 / 2017-07-19
 
 * Fixed package name.

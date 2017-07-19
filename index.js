@@ -67,7 +67,7 @@ const actionRelease = function(version, messages, command){
   childProcess.execSync(`npm version ${version}`);
 
   if(!command.noPublish)
-    childProcess.execSync(`npm publish --scope ${command.restricted ? 'restricted' : 'public'}`, {stdio: 'inherit'});
+    childProcess.execSync(`npm publish --access ${command.restricted ? 'restricted' : 'public'}`, {stdio: 'inherit'});
 };
 
 cli
