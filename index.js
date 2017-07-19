@@ -64,7 +64,10 @@ const actionRelease = function(version, messages, command){
   if(messages.length)
     actionChangelog(messages, {version});
 
-  childProcess.execSync(`npm version ${version} --scope ${command.restricted ? 'restricted' : 'public'}`, {stdio: 'inherit'});
+  childProcess.execSync(`npm version ${version}`);
+
+  if(!command.noPublish)
+    childProcess.execSync(`npm publish --scope ${command.restricted ? 'restricted' : 'public'}`, {stdio: 'inherit'});
 };
 
 cli
@@ -77,7 +80,8 @@ cli.command('changelog [messages...]').alias('c')
   .action(actionChangelog);
 
 cli.command('release <version> [messages...]').alias('r')
-  .option('-r,--restricted', 'If the package must be released as restricted.')
+  .option('-n,--no-publish', 'Do not publish the package but just tag the version.')
+  .option('-r,--restricted', 'If the package must be published as restricted.')
   .description('Releases a new version.')
   .action(actionRelease);
 
