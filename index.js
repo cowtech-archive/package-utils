@@ -42,7 +42,7 @@ const saveChangelog = function(changelog){
 
   // Write the file and commit the repository.
   fs.writeFileSync('./CHANGELOG.md', raw, 'utf8');
-  childProcess.execSync('git commit -a -m "Updated CHANGELOG.md."');
+  childProcess.execSync('git commit -a -m "Updated CHANGELOG.md."', {stdio: 'inherit'});
 
   return raw;
 };
@@ -64,7 +64,7 @@ const actionRelease = function(version, messages, command){
   if(messages.length)
     actionChangelog(messages, {version});
 
-  console.log(`npm version ${version} --scope ${command.restricted ? 'restricted' : 'public'}`);
+  childProcess.execSync(`npm version ${version} --scope ${command.restricted ? 'restricted' : 'public'}`, {stdio: 'inherit'});
 };
 
 cli
