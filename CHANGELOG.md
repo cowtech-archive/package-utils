@@ -1,3 +1,7 @@
+### 2017-07-19 / 0.1.1
+
+* Fixed changelog header sequence.
+
 ### 0.1.0 / 2017-07-19
 
 * Fixed publish command.

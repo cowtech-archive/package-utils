@@ -51,7 +51,7 @@ const actionChangelog = function(messages, command){
   const changelog = loadChangelog();
 
   if(command.version) // If needed, create a new version
-    changelog.unshift([`${parseVersion(command.version)} / ${new Date().toISOString().substring(0, 10)}`, []]);
+    changelog.unshift([`${new Date().toISOString().substring(0, 10)} / ${parseVersion(command.version)}`, []]);
 
   // Add new entries
   changelog[0][1].unshift(...messages);
