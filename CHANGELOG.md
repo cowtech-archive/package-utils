@@ -1,3 +1,7 @@
+### 0.1.0 / 2017-07-19
+
+* Fixed publish command.
+
 ### 0.0.4 / 2017-07-19
 
 * Fixed README.md.
