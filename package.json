@@ -1,0 +1,39 @@
+{
+  "name": "package-utils",
+  "version": "0.0.0",
+  "description": "Small utility to manage npm package releases.",
+  "main": "index.js",
+  "bin": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint index.js bin lib test",
+    "package-utils": "node ./index.js",
+    "postpublish": "git push origin && git push origin -f --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShogunPanda/package-utils"
+  },
+  "keywords": [
+    "npm",
+    "package"
+  ],
+  "author": "Shogun <shogun@cowtech.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShogunPanda/package-utils/issues"
+  },
+  "homepage": "https://github.com/ShogunPanda/package-utils",
+  "dependencies": {
+    "commander": "~2.11",
+    "semver": "^5.3.0"
+  },
+  "devDependencies": {
+    "@cowtech/eslint-config": "~4.2",
+    "eslint": "~4.2"
+  }
+}
