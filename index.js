@@ -6,6 +6,7 @@
  */
 
 const fs = require('fs');
+const path = require('path');
 const cli = require('commander');
 const semver = require('semver');
 const childProcess = require('child_process');
@@ -14,7 +15,7 @@ const parseVersion = function(version){
   if(version.match(/^\d/))
     return version;
 
-  return semver.inc(require('./package.json').version, version);
+  return semver.inc(require(path.resolve(process.cwd(), './package.json')).version, version);
 };
 
 const loadChangelog = function(){

@@ -1,3 +1,7 @@
+### 2017-07-24 / 0.2.0
+
+* Fixed serious issue where the right version to manage was not detected.
+
 ### 2017-07-19 / 0.1.1
 
 * Fixed changelog header sequence.
