@@ -1,3 +1,7 @@
+### 2017-08-14 / 0.2.1
+
+* Updated dependencies.
+
 ### 2017-07-24 / 0.2.0
 
 * Fixed serious issue where the right version to manage was not detected.
