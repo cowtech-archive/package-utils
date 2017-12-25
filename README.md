@@ -1,4 +1,4 @@
-# package-utils
+# @cowtech/package-utils
 
 [![Package Version](https://badge.fury.io/js/%40cowtech%2Fpackage-utils.svg)](https://badge.fury.io/js/%40cowtech%2Fpackage-utils)
 [![Dependency Status](https://gemnasium.com/badges/github.com/cowtech/package-utils.svg)](https://gemnasium.com/github.com/cowtech/package-utils)
