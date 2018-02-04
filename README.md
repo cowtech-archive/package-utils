@@ -1,11 +1,11 @@
 # @cowtech/package-utils
 
-[![Package Version](https://badge.fury.io/js/%40cowtech%2Fpackage-utils.svg)](https://badge.fury.io/js/%40cowtech%2Fpackage-utils)
-[![Dependency Status](https://gemnasium.com/badges/github.com/cowtech/package-utils.svg)](https://gemnasium.com/github.com/cowtech/package-utils)
+[![Package Version](https://img.shields.io/npm/v/@cowtech/package-utils.svg)](https://npmjs.com/package/@cowtech/package-utils)
+[![Dependency Status](https://img.shields.io/gemnasium/github.com/cowtech/package-utils.svg)](https://gemnasium.com/github.com/cowtech/package-utils)
 
 Small utility to manage npm package releases.
 
-https://github.com/ShogunPanda/package-utils
+https://github.com/cowtech/package-utils
 
 ## Supported implementations.
 
@@ -28,4 +28,4 @@ The API documentation can be found [here](https://shogunpanda.github.io/package-
 
 Copyright (C) 2017 and above Shogun <shogun@cowtech.it>.
 
-Licensed under the MIT license, which can be found at http://opensource.org/licenses/MIT.
+Licensed under the MIT license, which can be found at https://choosealicense.com/licenses/mit.

@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShogunPanda/package-utils"
+    "url": "https://github.com/cowtech/package-utils"
   },
   "keywords": [
     "npm",
@@ -25,9 +25,9 @@
   "author": "Shogun <shogun@cowtech.it>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ShogunPanda/package-utils/issues"
+    "url": "https://github.com/cowtech/package-utils/issues"
   },
-  "homepage": "https://github.com/ShogunPanda/package-utils",
+  "homepage": "https://github.com/cowtech/package-utils",
   "dependencies": {
     "commander": "~2.11",
     "semver": "~5.4"
