@@ -1,6 +1,6 @@
 {
   "name": "@cowtech/package-utils",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Small utility to manage npm package releases.",
   "main": "index.js",
   "bin": "index.js",
