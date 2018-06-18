@@ -1,3 +1,9 @@
+### 2018-06-18 / 0.2.3
+
+* chore: End of development notice.
+* Updated license links and badges.
+* Updated README.md.
+
 ### 2017-08-14 / 0.2.2
 
 * Minor development fix.
