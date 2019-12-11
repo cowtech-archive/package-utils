@@ -1,15 +1,8 @@
 # @cowtech/package-utils
 
-[![Package Version](https://img.shields.io/npm/v/@cowtech/package-utils.svg)](https://npmjs.com/package/@cowtech/package-utils)
-[![Dependency Status](https://img.shields.io/gemnasium/github.com/cowtech/package-utils.svg)](https://gemnasium.com/github.com/cowtech/package-utils)
+## END OF DEVELOPMENT NOTICE - This package has been discontinued
 
 Small utility to manage npm package releases.
-
-https://github.com/cowtech/package-utils
-
-## END OF DEVELOPMENT NOTICE
-
-# This module has been discontinued in favor of [impacca](https://github.com/ShogunPanda/impacca).
 
 ## Supported implementations.
 
